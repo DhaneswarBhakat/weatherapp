@@ -7,7 +7,7 @@ class ApiService extends RemoteService {
   Future<Response> getWeatherData(String location) async {
     Map<String, String> queryParameters = {
       'q': location,
-      'appid': 'a81933865f640accec828cb65f8eec1b',
+      'appid': '//ADD YOUR API KEY HERE//',
       'units': 'metric'
     };
 
